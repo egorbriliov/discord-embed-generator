@@ -1,7 +1,10 @@
 # EmbedGenerator
-EmbedGenerator is a free, open-source, extensible bot for Discord servers, built on top of <a href="https://github.com/DisnakeDev/disnake">disnake.py</a>. This bot is generally self-hosted either on a dedicated server (like a Raspberry Pi) or general cloud hosting like AWS etc. You can think of this bot as privacy focused, as you are in total control of the code, so you can be sure that your information is secure.
+
+EmbedGenerator is a free, open-source, extensible bot for Discord servers, built on top of <a href="https://github.com/DisnakeDev/disnake">disnake.py</a>.
+This bot is generally self-hosted either on a dedicated server (like a RaspberryPi) or general cloud hosting like AWS etc. You can think of this bot as privacy focused, as you are in total control of the code, so you can be sure that your information is secure.
 
 ## Features
+
 This bot has been in development since 2024 and has only two command:
 
 ### General Commands
@@ -11,11 +14,11 @@ This bot has been in development since 2024 and has only two command:
 
 ### Usage examples
 
-`First steps:`   
+`First steps:`
 To get started, you need to use /embedTo get started, you need to use /embed  
 ![First steps](sources/first_steps.gif)
 
-`Add something:`   
+`Add something:`
 To add something, you need to click a button and fill out the modal window  
 ![Add something](sources/add_something.gif)
 
@@ -36,7 +39,6 @@ If you choose “Use webhook” you will need to past webhook URL.
 You don’t have to worry about data entry errors, because if they are not true, _**EmbedGenerator**_ will warn you!  
 ![Input errors](sources/input_errors.gif)
 
-
 ## Installation
 
 This bot runs on [Python](https://www.python.org/). You will need at least python 3.10.
@@ -50,20 +52,20 @@ This bot runs on [Python](https://www.python.org/). You will need at least pytho
 5. Run `python main.py` to start bot.
 
 ### Running longterm
+
 Once you've setup your keys and checked that the features you want are working, you have a couple of options for running the bot.
 
 ### Selfhosted
-You could run the bot along side everything else on your pc. However it's probably a good idea to run your bot on a separate computer such as a linux server or a Raspberry Pi so it does not interfere with your normal operations and to keep it running even if you were to sleep or shutdown your PC. 
+
+You could run the bot along side everything else on your pc. However it's probably a good idea to run your bot on a separate computer such as a linux server or a Raspberry Pi so it does not interfere with your normal operations and to keep it running even if you were to sleep or shutdown your PC.
 
 ### Cloud Hosted
+
 There is a number of cloud hosting providers that can run small Python applications like this. The following have been tested to work, you'll have to extrapolate if you want to use some other provider (AWS, etc)
 
 ### Running on Heroku
+
 - Create heroku account, install heroku-cli, create a new Dyno.
 - Git clone the repo and follow the instructions in the Deploy section to setup pushing to heroku
 - Go to settings and setup Config Vars the name of the vars are exactly the same as the auth.json file. You **DO NOT** need the quotes around the values in config vars
 - Run `heroku scale worker=1` in the bot installation directory to run the bot as a worker rather than a webserver.
-
-
-
-
