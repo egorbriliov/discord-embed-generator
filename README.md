@@ -1,6 +1,6 @@
 # EmbedGenerator
 
-![Discord](https://img.shields.io/badge/discord-purple?style=for-the-badge&logo=discord)
+![Discord](https://img.shields.io/badge/discord-black?style=for-the-badge)
 
 EmbedGenerator is a free, open-source, extensible bot for Discord servers, built on top of <a href="https://github.com/DisnakeDev/disnake">disnake.py</a>.
 This bot is generally self-hosted either on a dedicated server (like a RaspberryPi) or general cloud hosting like AWS etc. You can think of this bot as privacy focused, as you are in total control of the code, so you can be sure that your information is secure.
