@@ -3,7 +3,15 @@
 from dotenv import dotenv_values
 
 
-class Env:
-    """Содержит все переменные .env."""
+class Enviroment:
+    """Contains all .env values."""
 
-    TOKEN = dotenv_values(".env")['TOKEN']
+    VALUES = dotenv_values(".env")
+
+    @classmethod
+    def get(cls, name: str):
+        """Return value by name if exists."""
+        try:
+            return cls.VALUES[name]
+        except KeyError:
+            raise KeyError(f'Name {name} not exists in .env') from None
