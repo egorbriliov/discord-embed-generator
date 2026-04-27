@@ -1,4 +1,4 @@
-# EmbedGenerator
+# Discrod Embed Generator
 
 ![Discord](https://img.shields.io/badge/discord-black?style=for-the-badge&logo=discord)
 ![Disnake](https://img.shields.io/badge/disnake-black?style=for-the-badge&logo=discord&logoColor=yellow)
