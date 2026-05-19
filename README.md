@@ -72,3 +72,5 @@ There is a number of cloud hosting providers that can run small Python applicati
 - Git clone the repo and follow the instructions in the Deploy section to setup pushing to heroku
 - Go to settings and setup Config Vars the name of the vars are exactly the same as the auth.json file. You **DO NOT** need the quotes around the values in config vars
 - Run `heroku scale worker=1` in the bot installation directory to run the bot as a worker rather than a webserver.
+
+p.s
